@@ -22,7 +22,7 @@ In this project, we analyzed the restaurant rating and review datasets on Yelp t
 **Analysis Diagram**
 ![Analysis Diagram](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/rbda-proposal-design-diagram.png)
 
-### Data Analysis
+**Data Analysis**
 
 After data cleaning and profiling, we joined the datasets and analyzed the joined table by using Hive on HDFS. Firstly, we joined the Business, Review and User datasets by using business_id and user_id as foreign keys, then performed analysis to provide insights into the success patterns of popular restaurants in the US and user behavior on Yelp.
 
@@ -30,7 +30,7 @@ In the analysis of Businesses, we select users with an average star rating highe
 
 In the analysis of user behavior, we have computed user average review count, average user rating, and Number of Yelp users added per year from the joined table.
 
-### Data Visualization
+**Data Visualization**
 
 After analyzing data on Hadoop, we visualized the result by using Tableau to transform the results into compelling and engaging visualizations.
 
@@ -46,7 +46,7 @@ c. Geographical distribution of reviews in the U.S.
 d. Number of Yelp users added per year
 ![d](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/d.png)
 
-### Insights
+**Insights**
 
 In the analysis of popular restaurants on Yelp, we can see that the most popular restaurants with the highest rating by good users are mostly in state CA, NV, MO, TN, PA and AZ, and different states show their preference on different kinds of cuisine, for example, we observe that in CA, popular restaurants are bars or catering while in PA, popular restaurants are Mediterranean food, and in FL, popular restaurants are foods like salad, bakery and poke. These preferences could have comprehensive analysis with population, lifestyle and weather dataset with corresponding states.
 
