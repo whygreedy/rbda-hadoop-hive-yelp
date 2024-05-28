@@ -20,7 +20,7 @@ In this project, we analyzed the restaurant rating and review datasets on Yelp t
 ## Analysis
 
 **Analysis Diagram**
-[Analysis Diagram](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/rbda-proposal-design-diagram.png)
+![Analysis Diagram](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/rbda-proposal-design-diagram.png)
 
 **Data Analysis**
 
@@ -35,16 +35,16 @@ In the analysis of user behavior, we have computed user average review count, av
 After analyzing data on Hadoop, we visualized the result by using Tableau to transform the results into compelling and engaging visualizations.
 
 a. Top 10 restaurants by good users
-[a](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/a.png)
+![a](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/a.png)
 
 b. Top 10 restaurants by good users with business categories and state information
-[b](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/b.png)
+![b](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/b.png)
 
 c. Geographical distribution of reviews in the U.S.
-[c](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/c.png)
+![c](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/c.png)
 
 d. Number of Yelp users added per year
-[d](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/d.png)
+![d](https://raw.githubusercontent.com/whygreedy/rbda-hadoop-hive-yelp/main/images/d.png)
 
 **Insights**
 In the analysis of popular restaurants on Yelp, we can see that the most popular restaurants with the highest rating by good users are mostly in state CA, NV, MO, TN, PA and AZ, and different states show their preference on different kinds of cuisine, for example, we observe that in CA, popular restaurants are bars or catering while in PA, popular restaurants are Mediterranean food, and in FL, popular restaurants are foods like salad, bakery and poke. These preferences could have comprehensive analysis with population, lifestyle and weather dataset with corresponding states.
